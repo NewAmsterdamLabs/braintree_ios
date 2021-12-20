@@ -29,15 +29,15 @@ let package = Package(
         ),
         .library(
             name: "BraintreePaymentFlow",
-            targets: ["BraintreePaymentFlow", "PPRiskMagnes"]
+            targets: ["BraintreePaymentFlow"]
         ),
         .library(
             name: "BraintreePayPal",
-            targets: ["BraintreePayPal", "PPRiskMagnes"]
+            targets: ["BraintreePayPal"]
         ),
         .library(
             name: "BraintreeThreeDSecure",
-            targets: ["BraintreeThreeDSecure", "CardinalMobile", "PPRiskMagnes"]
+            targets: ["BraintreeThreeDSecure", "CardinalMobile"]
         ),
         .library(
             name: "BraintreeUnionPay",
